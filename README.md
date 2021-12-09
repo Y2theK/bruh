@@ -1,7 +1,3 @@
 # portfolio-template
+*Portfolio template with HTML, Pure CSS and Pure JavaScript*
 
- small protfolio template with html, pure css and pure js.
-
- for learning purpose.
-
- feel free to contribute.
