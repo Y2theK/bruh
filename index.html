@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" href="responsive.css" type="text/css" />
+
+    <!-- libs for fontawesome css1 js1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--			 				pre-loader				 -->
+    <div class="pre-loader">
+      <ul class="loader">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <!-- 						 end pre-loader 					-->
+    <!-- 							start header 					-->
+    <header id="home">
+      <div class="contact">
+        <a href="tel:09796779906">
+          <i class="fa fa-phone"></i>
+
+          09796779906
+        </a>
+        <a href="mailto:contactwebsite.com">
+          <i class="fa fa-envelope"></i>
+          contactwebsite.com
+        </a>
+      </div>
+      <div class="social">
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-youtube"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-github"></i></a>
+      </div>
+    </header>
+    <!-- 							end header 							-->
+    <!-- 							NAVIGATION							-->
+    <nav>
+      <div class="logo">
+        <a href=""><i class="fa fa-graduation-cap fa-2x"></i></a>
+      </div>
+      <div class="navi">
+        <ul>
+          <li><a href="#home" onclick="goto()">Home</a></li>
+          <li><a href="#service" onclick="goto()">Courses</a></li>
+          <li><a href="#gallery" onclick="goto()">Projects</a></li>
+          <li><a href="#about" onclick="goto()">About Me</a></li>
+        </ul>
+        <div class="burger">
+          <div class="burger-icon">
+            <i class="fa fa-times" id="menu-cross"></i>
+            <i class="fa fa-bars" id="menu-icon"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- 							END NAVIGATION						-->
+    <!-- 							Hero Section						-->
+    <section class="hero-section" id="hero">
+      <div class="hero-img">
+        <img src="./profile.jfif" alt="hero-image" />
+      </div>
+      <h1>I am <span>Ye Yint Kyaw</span></h1>
+      <h3>Web Designer / Web Developer , Freelancer</h3>
+    </section>
+    <!-- 						End	Hero Section						-->
+    <!-- 						Welcome Section						-->
+    <section class="welcome-section">
+      <div class="welcome">
+        <h1>Welcome to My Website</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto et
+          dolor nihil ipsa totam cupiditate? Ex eligendi voluptatem quasi velit
+          oluptas expe.
+        </p>
+      </div>
+
+      <div class="skillbar">
+        <div class="skill-item">
+          <h4>Design</h4>
+          <div class="skill-loader"></div>
+        </div>
+        <div class="skill-item">
+          <h4>Development</h4>
+          <div class="skill-loader"></div>
+        </div>
+        <div class="skill-item">
+          <h4>Responsive</h4>
+          <div class="skill-loader"></div>
+        </div>
+        <div class="skill-item">
+          <h4>API</h4>
+          <div class="skill-loader"></div>
+        </div>
+        <div class="skill-item">
+          <h4>Marketing</h4>
+          <div class="skill-loader"></div>
+        </div>
+        <div class="skill-item">
+          <h4>Editing</h4>
+          <div class="skill-loader"></div>
+        </div>
+      </div>
+    </section>
+    <!-- 						End Welcome Section						-->
+    <!-- 						Start Service Section						-->
+    <section class="service-section" id="service">
+      <div class="hire">
+        <h2>I can provide these services</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
+          ipsam sit tenetur odit illum. Illo corrupti ex nemo id laudantium ea
+          facere ipsum odio officia, a porro labore debitis consequatur?
+        </p>
+      </div>
+      <div class="services">
+        <div class="service-items">
+          <i class="fa fa-pen-ruler fa-3x"></i>
+          <h3>Web Design</h3>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit porro
+            placeat similique corrupti, blanditiis minus voluptatem voluptatibus
+            at sequi, alias, aspernatur ducimus saepe pariatur quibusdam
+            repellendus? Consequuntur nihil iure consectetur!
+          </p>
+        </div>
+        <div class="service-items">
+          <i class="fa fa-screwdriver-wrench fa-3x"></i>
+          <h3>Web Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit porro
+            placeat similique corrupti, blanditiis minus voluptatem voluptatibus
+            at sequi, alias, aspernatur ducimus saepe pariatur quibusdam
+            repellendus? Consequuntur nihil iure consectetur!
+          </p>
+        </div>
+        <div class="service-items">
+          <i class="fa fa-feather-pointed fa-3x"></i>
+          <h3>Content Writing</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit porro
+            placeat similique corrupti, blanditiis minus voluptatem voluptatibus
+            at sequi, alias, aspernatur ducimus saepe pariatur quibusdam
+            repellendus? Consequuntur nihil iure consectetur!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- 						End Service Section						-->
+    <!-- 						Start Scroll Up Div						-->
+    <div class="scroll-up">
+      <div class="scroll-up-item">
+        <a href="#home">
+          <i class="fa fa-arrow-up fa-2x"></i>
+        </a>
+      </div>
+    </div>
+    <!-- 						End Scroll Up Div						-->
+    <!-- 						Start ProjectGallery Section      	-->
+    <section class="gallery-section" id="gallery">
+      <div class="gallery">
+        <h1>Click the Section You want</h1>
+        <div class="but">
+          <button class="default one" onclick="clickMe(event,'one')">
+            Section One
+          </button>
+          <button class="two" onclick="clickMe(event,'two')">
+            Section Two
+          </button>
+          <button class="three" onclick="clickMe(event,'three')">
+            Section Three
+          </button>
+        </div>
+      </div>
+      <div class="photos">
+        <div id="one" class="photo">
+          <img src="./g1.jpg" alt="" />
+          <img src="./g1.jpg" alt="" />
+          <img src="./g1.jpg" alt="" />
+          <img src="./g1.jpg" alt="" />
+          <img src="./g1.jpg" alt="" />
+          <img src="./g1.jpg" alt="" />
+        </div>
+        <div id="two" class="photo">
+          <img src="./g2.jpg" alt="" />
+          <img src="./g2.jpg" alt="" />
+          <img src="./g2.jpg" alt="" />
+          <img src="./g2.jpg" alt="" />
+          <img src="./g2.jpg" alt="" />
+          <img src="./g2.jpg" alt="" />
+        </div>
+        <div id="three" class="photo">
+          <img src="./g3.jpg" alt="" />
+          <img src="./g3.jpg" alt="" />
+          <img src="./g3.jpg" alt="" />
+          <img src="./g3.jpg" alt="" />
+          <img src="./g3.jpg" alt="" />
+          <img src="./g3.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- 						End ProjectGallery Section      		-->
+    <!-- 						Footer Section      		-->
+    <footer>
+      <div class="footer" id="about">
+        <div class="about">
+          <div class="links">
+            <h4>သင်တန်းများ</h4>
+            <ul>
+              <li><a href="">Computer Traning Course</a></li>
+              <li><a href="">Programming Courses</a></li>
+              <li><a href="">Basic Web Development Course</a></li>
+              <li><a href="">Advanced Web Development Course</a></li>
+              <li><a href="">Mobile Development Course</a></li>
+              <li><a href="">Customer Success Course</a></li>
+            </ul>
+          </div>
+          <div class="address">
+            <h4>တည်နေရာ</h4>
+            <ul>
+              <li>
+                <i class="fa fa-map-marker"></i> No.69 Myatto, Pathein Divison
+              </li>
+              <li>
+                <i class="fa fa-map-marker"></i> No.99 Madaya, Madalay Divison
+              </li>
+              <li>
+                <i class="fa fa-map-marker"></i> No.42 Hopin, Kachin Region
+              </li>
+              <li>
+                <i class="fa fa-phone"></i>
+                09878990097
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copy">
+          <p>Copyright &copy 2021</p>
+        </div>
+      </div>
+    </footer>
+    <!-- 						End Footer Section      		-->
+  </body>
+
+  <script type="text/javascript" src="main.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"
+    integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+</html>
